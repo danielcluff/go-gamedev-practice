@@ -1,5 +1,5 @@
 # If you prefer the allow list template instead of the deny list, see community template:
-# https://github.com/github/gitignore/blob/main/community/Golang/Go.AllowList.gitignore
+# https://github.com/github/gitignore/blob/program/community/Golang/Go.AllowList.gitignore
 #
 # Binaries for programs and plugins
 *.exe
@@ -23,3 +23,7 @@ go.work.sum
 
 # env file
 .env
+
+.DS_Store
+
+cmd/go-gamedev-practice/main
