@@ -8,7 +8,7 @@ import (
 	rl "github.com/gen2brain/raylib-go/raylib"
 )
 
-func input() {
+func Input() {
 	window := utils.Coords{
 		X: 800,
 		Y: 450,

@@ -6,7 +6,7 @@ import (
 	rl "github.com/gen2brain/raylib-go/raylib"
 )
 
-func rld() {
+func Rld() {
 	rl.InitWindow(800, 450, "raylib [core] example - basic window")
 	defer rl.CloseWindow()
 

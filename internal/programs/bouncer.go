@@ -7,7 +7,7 @@ import (
 	rl "github.com/gen2brain/raylib-go/raylib"
 )
 
-func bouncer() {
+func Bouncer() {
 	window := utils.Coords{
 		X: 800,
 		Y: 450,
